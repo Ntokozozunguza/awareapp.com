@@ -1,0 +1,28 @@
+/* Styles for the quiz page */
+#quiz-form fieldset {
+    margin-bottom: 15px;
+}
+
+#quiz-form legend {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#quiz-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#quiz-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#results {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    display: none;
+}
