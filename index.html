@@ -3,33 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Addiction Awareness</title>
+    <title>News Website</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Addiction Awareness Platform</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="education.html">Education</a></li>
-                <li><a href="stories.html">Personal Stories</a></li>
-                <li><a href="resources.html">Resources</a></li>
-                <li><a href="quiz.html">Self-Assessment Quiz</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <main>
-        <section>
-            <h2>Welcome to Addiction Awareness</h2>
-            <p>This platform is dedicated to educating people about addiction, sharing personal stories, and providing helpful resources.</p>
-        </section>
-    </main>
-    
-    <footer>
-        <p>&copy; 2025 Addiction Awareness. All rights reserved.</p>
-    </footer>
+    <div class="nav-container">
+        <div class="nav-items">
+            <div class="nav-item" data-target="home">
+                <div class="icon-container active">
+                    <i class="fas fa-home active"></i>
+                </div>
+                <span>HOME</span>
+            </div>
+            <div class="nav-item" data-target="search">
+                <div class="icon-container">
+                    <i class="fas fa-search"></i>
+                </div>
+                <span>SEARCH</span>
+            </div>
+            <div class="nav-item" data-target="profile">
+                <div class="icon-container">
+                    <i class="fas fa-user"></i>
+                </div>
+                <span>PROFILE</span>
+            </div>
+        </div>
+        <div class="slider"></div>
+    </div>
 
     <script src="script.js"></script>
 </body>
